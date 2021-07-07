@@ -1,0 +1,202 @@
+body {
+  font-family: 'Helvetica Neue Bold', 'Proxima Nova Alt Regular', sans-serif;
+  font-size: 25px;
+  /*src: url(sansation_light.woff);*/
+}
+
+@font-face {
+  font-family: 'TS Block Bold';
+  src: url('../assets/fonts/TS Block/TS Block Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url('../assets/fonts/helveticaneue/Helvetica Neu Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../assets/fonts/helveticaneue/HelveticaNeue.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../assets/fonts/proxima/Proxima Nova Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Alt Regular';
+  src: url('../assets/fonts/proxima/Proxima Nova Alt Regular.otf') format('opentype');
+}
+
+
+.container
+{
+    margin: 0 auto; 
+    padding: 0 15px;
+    background-color: #796b6b;
+    width: 1180px;
+}
+
+.header-bar{
+  float: left;
+  width: 100%;
+  text-align:right;
+  margin-right: :15px;
+}
+
+.header-bar img{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+
+.feature-logo {
+  padding-top:10%;
+}
+
+.feature-bg {
+  background:url('../images/feature-bg.png'); 
+  background-size: contain; 
+  min-height: 400px; 
+  width: :100%; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+
+.feature-categories {
+  background:url('../images/categories-bg.jpg'); 
+
+  background-position: center center; 
+  background-repeat: no-repeat;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));           /*1fr 1fr 1fr;*/
+  grid-gap: 1rem;
+  margin-left: 15%;
+  margin-right:15%;
+}
+
+.grid > div {
+  background: black;
+  opacity: .9;
+  height: 200px;
+  padding: 1rem;
+}
+
+.grid  img {
+  margin-top: 20px;
+}
+
+.icon-bar {
+  width: 80%;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+.btn-group button {
+  background-color: black; /* Green background */
+  border: 0px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 19.5%;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #bbb;
+}
+
+.btn-group {
+width:100%
+margin: 0 auto;
+background-color: #000; 
+opacity: .9;
+padding-bottom: 20px;
+}
+
+.btnh {
+background-color: #000; 
+color: white;
+margin-top:25px;
+opacity: .9;
+font-size: 14px;
+}
+
+
+
+
+
+
+
+.footer-links {
+  color: #fff;
+  font-family: 'Proxima Nova Alt Regular';
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+
+
+
+@media (max-width: 1024px)
+{
+    .container
+    {
+        margin-top: 0px;
+        padding-left :0px;
+        max-width: 100%;
+    }
+
+    img {
+    	max-width: 80%;
+    }
+
+
+    .feature-logo {
+		  padding-top:10%;
+	}
+}

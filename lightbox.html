@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+<script>
+function toggle(){
+  var element = document.getElementById("element");
+  if(element.className=="out"){
+    element.className = "";
+  } else {
+    element.className = "out";
+  }
+}
+</script>
+
+<style>
+
+  #element{
+    transition: all 2s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0; 
+  }
+
+  #element.out{
+    opacity:1
+  }
+
+  button{z-index: 2; position: relative}
+
+</style>
+</head>
+
+<body bgcolor="red">
+<div><center><img src=""></center></div>
+
+<div id="element">Element</div>
+
+
+
+<br />
+<button onclick="toggle()">click to fade in/out</button>
+
+</body>
+</html>
+
