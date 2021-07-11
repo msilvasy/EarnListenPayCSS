@@ -1,0 +1,425 @@
+.header-bar {
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-right: 15px;
+}
+
+    .header-bar img {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+        padding-right: 15px;
+    }
+
+.feature-logo {
+    padding-top: 25px;
+}
+
+.feature-2 {
+}
+
+.feature-bg {
+    background-image: none;
+    background-size: contain;
+    min-height: 400px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+    .feature-bg .gmify {
+        display: inline-block;
+        margin-top: 170px;
+    }
+
+    .feature-bg img.eanredeem {
+        display: inline-block;
+        margin-top: 65px;
+        padding-left: 12px;
+        width: 14%;
+    }
+
+    .feature-bg .footer-links {
+        display: inline-block;
+        margin-top: 6px;
+    }
+
+
+
+.grid-cat {
+    padding-left: 40px;
+}
+
+    .grid-cat > div > span {
+        margin-top: 50px;
+        height: 120px;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
+    .grid-cat > div {
+        float: left;
+        opacity: .9;
+        height: 355px;
+        width: 368px;
+        margin-left: 10px;
+    }
+
+        .grid-cat > div:first-child {
+            margin-left: 0px;
+        }
+    /*.grid > div {
+  background: black;
+  opacity: .9;
+  height: 200px;
+  padding: 1rem;
+}*/
+    .grid-cat img {
+    }
+
+.icon-bar {
+    width: 80%;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+    .icon-bar a {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 12px 0;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 36px;
+    }
+
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+
+.active {
+    background-color: red;
+}
+
+.feature-categories {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-group2 button {
+    background-color: transparent; /* Green background */
+    border: 0px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 19.5%;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group2:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group2 button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group2 button:hover {
+    background-color: #000;
+}
+
+.btn-group2 {
+    margin: 0 2%;
+    padding-bottom: 20px;
+    width: 96%;
+    float: left;
+    position: relative;
+    z-index: 5;
+}
+
+.btnh2 {
+    color: white;
+    font-size: 14px;
+    width: 96%;
+    margin: 0 2%;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    float: left;
+    position: relative;
+    z-index: 5;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-dark {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    right: 0;
+    background-color: #000;
+    opacity: .6;
+    width: 94.5%;
+    height: 45px;
+}
+
+.footer-links {
+    color: #fff;
+    font-family: 'Proxima Nova Alt Regular';
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.tiles-display .circle-box-outer {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    margin-right: 55px;
+    margin-top: 120px;
+}
+
+.tiles-display .circle-box {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    border: 1px solid;
+    border-radius: 130px;
+}
+
+.tiles-display .circle-box-inner {
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin-top: 25px;
+    line-height: 170px;
+    font-weight: bold;
+}
+
+.tiles-display .heading-text {
+    font-size: 28px;
+    font-family: 'Helvetica Neue Bold';
+}
+
+.tiles-display .heading-text-title {
+    font-size: 18px;
+    font-family: 'Helvetica Neue Bold';
+    vertical-align: top;
+    line-height: 40px;
+}
+
+.video-lists {
+    background-color: #828180;
+    padding-bottom: 50px;
+}
+
+    .video-lists h3 {
+        color: #010003;
+        font-size: 18px;
+        font-family: 'AvenirNextLTPro-Regular';
+        margin-left: 60px;
+        margin-top: 50px;
+        display: inline-block;
+        border-bottom: 2px solid #686766;
+        width: 90%;
+        padding-bottom: 12px;
+        margin-bottom: 5px;
+    }
+
+    .video-lists .row .col-lg-4 {
+        padding: 10px 5px;
+        width: 32.75%;
+    }
+
+        .video-lists .row .col-lg-4 img {
+            width: 100%;
+        }
+
+        .video-lists .row .col-lg-4:first-child {
+            padding-left: 0px;
+        }
+
+        .video-lists .row .col-lg-4:last-child {
+            padding-right: 0px;
+        }
+
+    .video-lists .video-lists-items {
+        list-style: none;
+        color: #FEFBFB;
+        font-size: 18px;
+        margin-left: 60px;
+        padding: 0px;
+        margin-top: 0px;
+        width: 90%;
+    }
+
+        .video-lists .video-lists-items li {
+            width: 100%;
+            display: inline-block;
+            font-family: 'AvenirNextLTPro-Regular';
+            border-bottom: 2px solid #686766;
+            padding-top: 10px;
+        }
+
+            .video-lists .video-lists-items li a:first-child {
+                float: left;
+            }
+
+            .video-lists .video-lists-items li a:last-child {
+                float: right;
+            }
+
+                .video-lists .video-lists-items li a:last-child img {
+                    width: 30px;
+                }
+/*video-lists-display*/
+.video-lists-display {
+    color: white;
+    width: 96%;
+    float: left;
+    position: relative;
+    z-index: 5;
+    padding-bottom: 50px;
+}
+
+    .video-lists-display .heading-video {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .video-lists-display h3 {
+        color: #fff;
+        margin: 0px;
+        margin-left: 60px;
+        position: relative;
+        z-index: 5;
+        font-size: 25px;
+        padding: 6px 10px;
+    }
+
+    .video-lists-display .row .col-lg-4 {
+        padding: 20px 15px;
+        width: 42%;
+    }
+
+        .video-lists-display .row .col-lg-4 img {
+            width: 100%;
+        }
+
+        .video-lists-display .row .col-lg-4:first-child {
+            padding-left: 75px;
+        }
+
+        .video-lists-display .row .col-lg-4:last-child {
+            padding-right: 0px;
+        }
+
+.dark-table {
+    background: #181818;
+    width: 100%;
+}
+
+    .dark-table thead tr th {
+        font-size: 10px;
+        color: #FFFFFF;
+        text-align: left;
+        padding: 5px;
+        border-bottom: 1px solid #2A2A2A;
+    }
+
+    .dark-table tbody tr td {
+        font-size: 10px;
+        color: #FFFFFF;
+        padding: 5px;
+        border-bottom: 1px solid #2A2A2A;
+    }
+.dark-table thead tr th img {
+    width: 15px;
+}
+.dark-table tbody tr td:nth-child(2) img {
+    width:15px;
+}
+.dark-table tbody tr td:nth-child(5) img {
+width: 35px;
+}
+
+.footer-bar {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+    .footer-bar .earnredeem-btn {
+        font-size: 14.4pt;
+        font-family: 'TS Block Bold';
+        background-color: #010003;
+        color: #FBF9F9;
+        padding: 5px 20px;
+    }
+
+    .footer-bar .footer-menu {
+        font-family: 'AvenirNextLTPro-Regular';
+        font-size: 17.28pt;
+        list-style: none;
+        color: #fff;
+    }
+
+        .footer-bar .footer-menu li, .footer-bar .footer-menu li a {
+            display: inline;
+            color: #fff;
+            text-decoration: none;
+        }
+
+@media (max-width: 1024px) {
+    .container {
+        margin-top: 0px;
+        padding-left: 0px;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 80%;
+    }
+
+    .feature-bg img.eanredeem {
+        width: 50%;
+        margin-top: 20px;
+    }
+}
+
+.row {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.col-lg-4 {
+    float: left;
+    width: 33.33%;
+    margin-right: 0px !important;
+}
+
+.col-lg-8 {
+    width: 86%;
+    margin: 40px auto;
+}

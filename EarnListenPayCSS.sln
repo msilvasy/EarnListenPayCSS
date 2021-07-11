@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EarnListenPayCSS", ".", "{4911A4C3-E23F-44CD-895D-FC296BE11F20}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49457"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Projects\GIPL-00228 ListenPay\Project\EarnListenPayCSS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49457\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49457"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Projects\GIPL-00228 ListenPay\Project\EarnListenPayCSS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49457\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49457"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4911A4C3-E23F-44CD-895D-FC296BE11F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4911A4C3-E23F-44CD-895D-FC296BE11F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E82563AF-ED8A-4D72-991D-D160ACD8AF71}
+	EndGlobalSection
+EndGlobal
