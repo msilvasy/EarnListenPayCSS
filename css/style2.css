@@ -1,23 +1,4 @@
-.header-bar {
-    float: left;
-    width: 100%;
-    text-align: right;
-    margin-right: 15px;
-}
 
-    .header-bar img {
-        width: 25px;
-        height: 25px;
-        margin-top: 15px;
-        padding-right: 15px;
-    }
-
-.feature-logo {
-    padding-top: 25px;
-}
-
-.feature-2 {
-}
 
 .feature-bg {
     background-image: none;
@@ -28,23 +9,7 @@
     background-repeat: no-repeat;
 }
 
-    .feature-bg .gmify {
-        display: inline-block;
-        margin-top: 170px;
-    }
-
-    .feature-bg img.eanredeem {
-        display: inline-block;
-        margin-top: 65px;
-        padding-left: 12px;
-        width: 14%;
-    }
-
-    .feature-bg .footer-links {
-        display: inline-block;
-        margin-top: 6px;
-    }
-
+    
 
 
 .grid-cat {
@@ -79,29 +44,6 @@
     .grid-cat img {
     }
 
-.icon-bar {
-    width: 80%;
-    background-color: blue;
-    margin: 0 auto;
-}
-
-    .icon-bar a {
-        float: left;
-        width: 20%;
-        text-align: center;
-        padding: 12px 0;
-        transition: all 0.3s ease;
-        color: white;
-        font-size: 36px;
-    }
-
-        .icon-bar a:hover {
-            background-color: #000;
-        }
-
-.active {
-    background-color: red;
-}
 
 .feature-categories {
     float: left;
@@ -181,12 +123,7 @@
     height: 45px;
 }
 
-.footer-links {
-    color: #fff;
-    font-family: 'Proxima Nova Alt Regular';
-    font-weight: lighter;
-    font-size: 12px;
-}
+
 
 .tiles-display .circle-box-outer {
     display: inline-block;

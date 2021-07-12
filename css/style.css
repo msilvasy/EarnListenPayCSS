@@ -2,33 +2,34 @@ body {
     font-family: 'Helvetica Neue Bold', 'Proxima Nova Alt Regular', sans-serif;
     font-size: 25px;
     /*src: url(sansation_light.woff);*/
-    background: url('../images/background2.PNG') ;
+    background: url('../images/background2.PNG');
 }
 
 @font-face {
-  font-family: 'TS Block Bold';
-  src: url('../assets/fonts/TS Block/TS Block Bold.ttf') format('truetype');
+    font-family: 'TS Block Bold';
+    src: url('../assets/fonts/TS Block/TS Block Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Helvetica Neue Bold';
-  src: url('../assets/fonts/helveticaneue/Helvetica Neu Bold.ttf') format('truetype');
+    font-family: 'Helvetica Neue Bold';
+    src: url('../assets/fonts/helveticaneue/Helvetica Neu Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'HelveticaNeue';
-  src: url('../assets/fonts/helveticaneue/HelveticaNeue.ttf') format('truetype');
+    font-family: 'HelveticaNeue';
+    src: url('../assets/fonts/helveticaneue/HelveticaNeue.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Proxima Nova Bold';
-  src: url('../assets/fonts/proxima/Proxima Nova Bold.otf') format('opentype');
+    font-family: 'Proxima Nova Bold';
+    src: url('../assets/fonts/proxima/Proxima Nova Bold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'Proxima Nova Alt Regular';
-  src: url('../assets/fonts/proxima/Proxima Nova Alt Regular.otf') format('opentype');
+    font-family: 'Proxima Nova Alt Regular';
+    src: url('../assets/fonts/proxima/Proxima Nova Alt Regular.otf') format('opentype');
 }
+
 @font-face {
     font-family: 'AvenirNextLTPro-Regular';
     src: url('../assets/fonts/proxima/AvenirNextLTPro-Regular.otf') format('opentype');
@@ -45,109 +46,112 @@ body {
 }
 
 
-.container
-{
-    margin: 0 auto; 
-    padding: 0 15px;   
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
     width: 1180px;
 }
 
-.header-bar{
-  float: left;
-  width: 100%;
-  text-align:right;
-  margin-right: 15px;
+.header-bar {
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-right: 15px;
 }
 
-.header-bar img{
-    width: 25px;
-    height: 25px;
-    margin-top: 15px;
-    padding-right: 15px;
-}
+    .header-bar img {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+        padding-right: 15px;
+    }
 
 .feature-logo {
-  padding-top:25px;
+    padding-top: 25px;
 }
 
 .feature-bg {
-  background:url('../images/feature-bg.png'); 
-  background-size: contain; 
-  min-height: 400px; 
-  width: 100%; 
-  background-position: center center; 
-  background-repeat: no-repeat;
+    background: url('../images/feature-bg.png');
+    background-size: contain;
+    min-height: 400px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
     .feature-bg .gmify {
-        display:inline-block;
-         margin-top:170px;
+        display: inline-block;
+        margin-top: 170px;
     }
+
     .feature-bg img.eanredeem {
         display: inline-block;
         margin-top: 65px;
         padding-left: 12px;
         width: 14%;
     }
+
     .feature-bg .footer-links {
         display: inline-block;
         margin-top: 6px;
     }
 
-    .feature-categories {
-        background: url('../images/categories-bg.jpg');
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        min-height:690px;
-    }
+.feature-categories {
+    background: url('../images/categories-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 690px;
+}
 
-.grid {   
+.grid {
     padding-left: 40px;
 }
+
     .grid > div {
-        float:left;
+        float: left;
         background: black;
         opacity: .9;
         height: 355px;
         width: 358px;
         margin-left: 10px;
     }
-    .grid > div:first-child {
-        margin-left:0px;
-    }
-        /*.grid > div {
+
+        .grid > div:first-child {
+            margin-left: 0px;
+        }
+    /*.grid > div {
   background: black;
   opacity: .9;
   height: 200px;
   padding: 1rem;
 }*/
-        .grid img {
-  margin-top: 50px;
-}
+    .grid img {
+        margin-top: 50px;
+    }
 
 .icon-bar {
-  width: 80%;
-  background-color: blue;
-  margin: 0 auto;
+    width: 80%;
+    background-color: blue;
+    margin: 0 auto;
 }
 
-.icon-bar a {
-  float: left;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
+    .icon-bar a {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 12px 0;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 36px;
+    }
 
-.icon-bar a:hover {
-  background-color: #000;
-}
+        .icon-bar a:hover {
+            background-color: #000;
+        }
 
 .active {
-  background-color: red;
+    background-color: red;
 }
 
 
@@ -160,28 +164,28 @@ body {
 
 
 .btn-group button {
-  background-color: black; /* Green background */
-  border: 0px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  width: 19.5%;
+    background-color: black; /* Green background */
+    border: 0px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 17.5%;
 }
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+    border-right: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
 .btn-group button:hover {
-  background-color: #bbb;
+    background-color: #bbb;
 }
 
 .btn-group {
@@ -192,6 +196,7 @@ body {
     padding-bottom: 20px;
     width: 96%;
     margin: 0 auto;
+    text-align:center;
 }
 
 .btnh {
@@ -207,29 +212,60 @@ body {
 
 
 .footer-links {
-  color: #fff;
-  font-family: 'Proxima Nova Alt Regular';
-  font-weight: lighter;
-  font-size: 12px;
+    color: #fff;
+    font-family: 'Proxima Nova Alt Regular';
+    font-weight: lighter;
+    font-size: 12px;
 }
 
 
+/* Smartphones (portrait) ----------- */
+@media (max-width : 320px) {
+    /* Styles */
+    .grid {
+        padding-left: 6%;
+    }
+}
 
+@media (max-width : 1024px) {
+    /* Styles */
+    .grid {
+        padding-left: 6%;
+    }
+        .grid > div {
+            float: none;
+            margin: 35px auto !important;
+        }
+    .feature-categories{
+        min-height:1245px;
+    }
+    .btn-group button {
+        padding: 10px 10px;
+    }
+}
 
-@media (max-width: 1024px)
-{
-    .container
-    {
+@media (min-width : 798px) and (max-width : 1024px) {
+
+    /* Styles */   
+    .feature-categories {
+        min-height: 840px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .container {
         margin-top: 0px;
-        padding-left :0px;
+        padding-left: 0px;
         max-width: 100%;
     }
 
     img {
-    	max-width: 80%;
+        max-width: 80%;
     }
+
     .feature-bg img.eanredeem {
-        width:50%;
-        margin-top:20px;
+        width: 50%;
+        margin-top: 20px;
     }
 }
