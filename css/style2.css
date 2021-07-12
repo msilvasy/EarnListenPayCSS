@@ -9,15 +9,15 @@
     background-repeat: no-repeat;
 }
 
-    
+
 
 
 .grid-cat {
-    padding-left: 40px;
+    /*padding-left: 40px;*/
 }
 
     .grid-cat > div > span {
-        margin-top: 50px;
+        margin-top: 90px;
         height: 120px;
         display: inline-block;
         margin-bottom: 10px;
@@ -27,28 +27,32 @@
     .grid-cat > div {
         float: left;
         opacity: .9;
-        height: 355px;
-        width: 368px;
-        margin-left: 10px;
+        height: 315px;
+        width: 392px;       
+        border-right: 1px solid #CFCFCF;
+        border-bottom: 1px solid #CFCFCF;
     }
 
         .grid-cat > div:first-child {
             margin-left: 0px;
         }
-    /*.grid > div {
+
+        .grid-cat > div:nth-child(3), .grid-cat > div:nth-child(7) {
+            border-right: none;
+        }
+            /*.grid > div {
   background: black;
   opacity: .9;
   height: 200px;
   padding: 1rem;
 }*/
-    .grid-cat img {
-    }
-
+           
 
 .feature-categories {
     float: left;
     width: 100%;
     margin-bottom: 20px;
+    background-size:contain;
 }
 
 .btn-group2 button {
@@ -57,7 +61,7 @@
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 19.5%;
+    width: 17.5%;
 }
 
 /* Clear floats (clearfix hack) */
@@ -290,15 +294,18 @@
         padding: 5px;
         border-bottom: 1px solid #2A2A2A;
     }
-.dark-table thead tr th img {
-    width: 15px;
-}
-.dark-table tbody tr td:nth-child(2) img {
-    width:15px;
-}
-.dark-table tbody tr td:nth-child(5) img {
-width: 35px;
-}
+
+    .dark-table thead tr th img {
+        width: 15px;
+    }
+
+    .dark-table tbody tr td:nth-child(2) img {
+        width: 15px;
+    }
+
+    .dark-table tbody tr td:nth-child(5) img {
+        width: 35px;
+    }
 
 .footer-bar {
     float: left;
@@ -359,4 +366,52 @@ width: 35px;
 .col-lg-8 {
     width: 86%;
     margin: 40px auto;
+}
+/* Smartphones (portrait) ----------- */
+@media (max-width : 320px) {
+    /* Styles */
+    .tiles-display .circle-box-outer {
+        margin-right: 0px !important;
+    }
+}
+
+@media (max-width : 1024px) {
+
+    .footer-bar .earnredeem-btn {
+        font-size: 10.4pt;
+    }
+
+    .btn-group2 button {
+        padding: 10px 10px;
+    }
+
+    .tiles-display .circle-box-outer {
+        margin-top: 35px;
+        margin-right: 15px;
+    }
+
+    .grid-cat {
+        padding-left: 0px;
+    }
+
+        .grid-cat > div {
+            height: 100%;
+            width: 100%;
+            margin-left: 0px;
+            border-top: 1px solid #CFCFCF;
+            padding-bottom: 50px;
+            border-right:none !important;
+        }
+
+            .grid-cat > div:first-child {
+                border-top: none;
+            }
+
+            .grid-cat > div > span {
+                margin-left: 0px;
+                margin-top: 25px;
+            }
+    .feature-categories {       
+        background-size: cover;
+    }
 }

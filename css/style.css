@@ -222,15 +222,13 @@ body {
 /* Smartphones (portrait) ----------- */
 @media (max-width : 320px) {
     /* Styles */
-    .grid {
-        padding-left: 6%;
-    }
+   
 }
 
 @media (max-width : 1024px) {
     /* Styles */
     .grid {
-        padding-left: 6%;
+        padding-left: 0px;
     }
         .grid > div {
             float: none;
@@ -242,6 +240,20 @@ body {
     .btn-group button {
         padding: 10px 10px;
     }
+    .footer-bar .earnredeem-btn {
+        font-size: 10.4pt !important;
+    }   
+    .container {
+        margin-top: 0px;
+        padding-left: 0px;
+        max-width: 100%;
+    }
+
+    .feature-bg img.eanredeem {
+        width: 50%;
+        margin-top: 20px;
+    }
+   
 }
 
 @media (min-width : 798px) and (max-width : 1024px) {
@@ -251,21 +263,5 @@ body {
         min-height: 840px;
     }
     
-}
-
-@media (max-width: 1024px) {
-    .container {
-        margin-top: 0px;
-        padding-left: 0px;
-        max-width: 100%;
-    }
-
-    img {
-        max-width: 80%;
-    }
-
-    .feature-bg img.eanredeem {
-        width: 50%;
-        margin-top: 20px;
-    }
+    
 }
