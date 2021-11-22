@@ -1,49 +1,8 @@
 body {
-    font-family: 'Helvetica Neue Bold', 'Proxima Nova Alt Regular', sans-serif;
-    font-size: 25px;
-    /*src: url(sansation_light.woff);*/
-    background: url('../images/background2.PNG');
+    font-family: 'Bodoni SvtyTwo ITC TT Book';
+    font-size: 25px;  
 }
 
-@font-face {
-    font-family: 'TS Block Bold';
-    src: url('../assets/fonts/TS Block/TS Block Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Helvetica Neue Bold';
-    src: url('../assets/fonts/helveticaneue/Helvetica Neu Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'HelveticaNeue';
-    src: url('../assets/fonts/helveticaneue/HelveticaNeue.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Proxima Nova Bold';
-    src: url('../assets/fonts/proxima/Proxima Nova Bold.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Proxima Nova Alt Regular';
-    src: url('../assets/fonts/proxima/Proxima Nova Alt Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'AvenirNextLTPro-Regular';
-    src: url('../assets/fonts/proxima/AvenirNextLTPro-Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'AvenirNextLTPro-It';
-    src: url('../assets/fonts/proxima/AvenirNextLTPro-It.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'AvenirNextLTPro-Bold';
-    src: url('../assets/fonts/proxima/AvenirNextLTPro-Bold.otf') format('opentype');
-}
 @font-face {
     font-family: 'Bodoni SvtyTwo ITC TT Book';
     src: url('../assets/fonts/proxima/bodoni-svtytwo-itc-tt-book.ttf') format('truetype');
