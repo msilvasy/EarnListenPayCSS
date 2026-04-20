@@ -52,14 +52,18 @@ function loadComments(comments) {
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    //var myModal = new bootstrap.Modal(document.getElementById('videoModal'));
-    //myModal.show();
-    //alert("OK");
-    $('#videoModal').modal("show");
-    loadVideo();
-});
-
+if (document.getElementById('videoModal') != null) {
+    document.addEventListener("DOMContentLoaded", () => {
+        var myModal = new bootstrap.Modal(document.getElementById('videoModal'));
+        myModal.show();
+        loadVideo();
+    });
+    document.getElementById('videoModal').addEventListener('hidden.bs.modal', function () {
+        document.querySelectorAll('modal-backdrop').forEach(el => el.remove());
+        document.body.classList.remove('modal-open');
+        document.body.style = "";
+    });
+}
 async function registerUser() {
     let userGuid = JSON.parse(localStorage.getItem("user"));
     if (userGuid && userGuid.guid)
@@ -146,9 +150,15 @@ async function addComment() {
 
 //document.getElementById("addCommentBtn").addEventListener("click", addComment);
 
-
-document.getElementById('videoModal').addEventListener('hidden.bs.modal', function () {
-    document.querySelectorAll('modal-backdrop').forEach(el => el.remove());
-    document.body.classList.remove('modal-open'); 
-    document.body.style = "";
-  });
+$(document).ready(function () {
+    $('#contact-form').submit(function (event) {
+        event.preventDefault();       
+        var formArray = $('#contact-form').serializeArray();
+        $.post('/APIUrl', formArray, function (result) {
+            alert('Message sent successfully!');
+        }).fail(function () {
+            alert('There is a error in sending Message.');
+        });
+        //alert('Message sent successfully!');
+    });    
+});
