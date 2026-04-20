@@ -53,8 +53,10 @@ function loadComments(comments) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    var myModal = new bootstrap.Modal(document.getElementById('videoModal'));
-    myModal.show();
+    //var myModal = new bootstrap.Modal(document.getElementById('videoModal'));
+    //myModal.show();
+    //alert("OK");
+    $('#videoModal').modal("show");
     loadVideo();
 });
 
